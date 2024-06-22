@@ -1,3 +1,292 @@
+.head_container { display: none; }
+.tv_container_fit {
+  top: 0;
+  bottom: 0;
+}
+.dark .tr_tabs {
+  background-color: #202020; /* #3b3b3b; */
+}
+.dark .tr_tabs_alt {
+  background-color: transparent;
+}
+.dark .script_tab_head .heading{
+display: none;
+}
+
+/* dracula theme #333540*/
+
+.CodeMirror {
+  color: #f8f8f2 !important;
+  background: #282a36 !important;
+}
+
+.CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+  background-color: #282a36 !important;
+}
+
+.CodeMirror-gutters {
+  border-right: 1px solid #333540 !important;
+  background-color: #282a36 !important;
+}
+
+.CodeMirror-linenumber {
+  color: #6D8A88 !important;
+}
+
+.CodeMirror-activeline .CodeMirror-gutter-wrapper .CodeMirror-linenumber {
+  background-color: transparent;
+}
+
+.CodeMirror-guttermarker { color: #6272a4 !important; }
+.CodeMirror-guttermarker-subtle { color: #616268 !important; }
+
+.CodeMirror-cursor {
+  border-left: 1px solid #f8f8f0 !important;
+}
+
+.CodeMirror div.CodeMirror-secondarycursor {
+  border-left: 1px solid #ff79c6 !important;
+}
+
+.cm-fat-cursor .CodeMirror-cursor {
+  background: #ff79c6 !important;
+}
+
+.cm-fat-cursor-mark {
+  background-color: #ff79c6 !important;
+}
+
+.cm-animate-fat-cursor {
+  background-color: #ff79c6 !important;
+}
+
+@keyframes blink {
+  50% {
+    background-color: transparent !important;
+  }
+}
+
+.cm-s-monokai span.cm-comment {
+  color: #6272a4 !important;
+}
+
+.cm-s-monokai .cm-header { color: #bd93f9 !important; }
+.cm-s-monokai .cm-quote { color: #6272a4 !important; }
+
+.cm-negative { color: #ff5555 !important; }
+.cm-positive { color: #50fa7b !important; }
+
+.cm-s-monokai .cm-keyword { color: #ff79c6 !important; }
+.cm-s-monokai .cm-atom { color: #bd93f9 !important; }
+.cm-s-monokai .cm-number { color: #bd93f9 !important; }
+
+.cm-s-monokai .cm-def, .cm-s-monokai .cm-defarg, .cm-s-monokai .cm-deffunc { color: #50fa7b !important; }
+
+.cm-s-monokai .cm-variable { color: #f8f8f2 !important; }
+.cm-s-monokai .cm-variable-2 { color: #ffb86c !important; }
+.cm-s-monokai .cm-variable-3, .cm-s-monokai .cm-type { color: #66d9ef !important; }
+
+.cm-s-monokai .cm-comment { color: #6272a4 !important; }
+.cm-s-monokai .cm-string { color: #f1fa8c !important; }
+.cm-s-monokai .cm-string-2 { color: #ffb86c !important; }
+.cm-s-monokai .cm-meta { color: #f8f8f2 !important; }
+.cm-s-monokai .cm-qualifier { color: #50fa7b !important; }
+.cm-s-monokai .cm-builtin { color: #50fa7b !important; }
+.cm-s-monokai .cm-bracket { color: #f8f8f2 !important; }
+.cm-s-monokai .cm-tag { color: #ff79c6 !important; }
+.cm-s-monokai .cm-attribute { color: #50fa7b !important; }
+.cm-s-monokai .cm-hr { color: #f8f8f2 !important; }
+.cm-s-monokai .cm-link { color: #ff79c6 !important; }
+
+.cm-invalidchar { color: #ff5555 !important; }
+
+div.CodeMirror span.CodeMirror-matchingbracket { color: #50fa7b !important; }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #ff5555 !important; }
+
+.CodeMirror-matchingtag { background: rgba(255, 255, 255, .1) !important; }
+
+.CodeMirror-activeline-background { background: rgba(255,255,255,0.1) !important; }
+
+.CodeMirror-selected { background: rgba(255, 255, 255, 0.1) !important; }
+.CodeMirror-focused .CodeMirror-selected { background: rgba(255, 255, 255, 0.1) !important; }
+
+.cm-searching {
+  background-color: rgba(255, 255, 255, .2) !important;
+}
+
+.cm-s-monokai .CodeMirror-activeline-background { background: rgba(255,255,255,0.1) !important; }
+.cm-s-monokai .CodeMirror-matchingbracket { color: #f8f8f2 !important; }
+.cm-s-monokai .cm-matchhighlight { background: rgba(255,255,255,0.2) !important; }
+
+/* the tabs */
+.dark .tv_tab {
+  font-family: initial;
+}
+
+/* the menubar */
+
 .dark .editormenu {
-  background: blue !important;
+  background-color: #141414;
+  color: #dedede;
+  font-family: initial;
+}
+.dark .editormenu li:hover {
+  border-top: solid 1px transparent !important;
+  background: #414141 !important;
+}
+
+.dark .editormenu li {
+  border-top: solid 1px transparent;
+  list-style-type: none;
+  padding: .2em .5em;
+  min-height: initial;
+  vertical-align: middle;
+}
+.dark .editormenu li label {
+  padding-left: unset;
+}
+.dark .submenu tr.entry.disabled {
+  color: #6d6d6d;
+}
+
+.dark .submenu tr.entry:hover {
+  background-color: #353535 !important
+}
+
+.dark .submenu,.dark .submenulist {
+  background-color: #2b2b2b;
+  color: #dedede;
+}
+
+.dark .submenu {
+  background-color: #2b2b2b;
+  border: solid 1.5px #3e3e3e;
+  border-radius: 3.5px;
+  box-shadow: 0 0.25rem 0.5rem 0 #00000038;
+  xoverflow: clip;
+  font-family: initial;
+  display: block;
+  margin-left: -0.5rem;
+}
+
+hr {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3e3e3e;
+}
+
+
+
+.dark .submenumore {
+  position: absolute;
+  height: unset;
+  right: 0;
+  transform:translatey(-50%);
+}
+
+.dark .submenulist {
+  border: solid 1.5px #3e3e3e;
+  border-radius: 3.5px;
+  box-shadow: 0 0.25rem 0.5rem 0 #00000038;
+  top: -5px;
+  top: -0.375rem;
+  margin-left: unset;
+  xoverflow: clip;
+  font-family: initial;
+}
+
+.dark tr.entry .shortcut {
+  color: #6d6d6d;
+  font-family: initial;
+}
+
+.dark .viewer_outer {
+  background-color: red;
+}
+
+.dark .editor_outer {
+  background-color: lime;
+}
+
+.dark .editor_border {
+  background-color: blue;
+}
+
+/* ---------------- */
+
+.editor_container_o {
+  border: none;
+}
+
+/* ---------------- */
+
+/* settings unfuckifier */
+
+.settingstable .settingstd>.section {
+  display: flex;
+  flex-direction: column;
+}
+/* move header above sections for sanity */
+.section_head {
+  width: 100%;
+  display: block;
+  padding: 0.25rem;
+}
+.section_content {
+  display: block;
+  padding: 0.25rem;
+  min-width: 80ch;
+  max-width: 100%;
+  .settingstr {
+    display: block;
+    .settingstd {
+      display: block;
+    }
+  }
+}
+/* settings CSS editor field */
+.settingsta {
+  min-height: 68vh;
+  min-width: 80ch;
+  width: 100%;
+  margin: 0;
+  padding-top: .1em;
+}
+
+/* settings place Appearance First */
+
+.settingstable >tbody {
+  display: flex;
+  flex-direction: column;
+
+  & >.settingstr {
+    content: "General, etc";
+    order: 1;
+    display: block;
+    width: 100%;
+    xborder: 2px solid lime;
+    & >.settingstd {
+      width: 100%;
+    }
+  }
+  & >.settingstr:nth-child(2) {
+    content: "Appearance";
+  }
+  & >.settingstr:has(.type_appearance) {
+    >td {
+      display: block;
+      width: 100%;
+      xbackground: purple;
+      xpadding: 0.5rem;
+    }
+    content: "Appearance";
+    xborder: 2px solid red;
+    order: 0;
+    .section_content {
+       width: 100%;
+     }
+  }
+
 }
